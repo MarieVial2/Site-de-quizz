@@ -1,0 +1,108 @@
+body {
+  font-family: "Nunito", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: #2BBBAD;
+  display: flex;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-scroll {
+  background-color: #0d3935;
+}
+
+#bandeau {
+  display: flex;
+  justify-content: flex-end;
+}
+#bandeau .btn-small {
+  margin: 5px;
+}
+
+.themeSombre {
+  background-color: #222222;
+  color: white;
+}
+
+.nav-sombre {
+  background-color: #1d7e74;
+}
+
+.header-sombre {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.606), rgba(50, 50, 50, 0.298)), url(images/quizz.jpg);
+}
+
+header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.467), rgba(255, 255, 255, 0.629)), url(images/quizz.jpg);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 15px 15px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: 2s;
+}
+header h1 {
+  margin: 20px;
+  font-family: "Indie Flower";
+}
+
+.haut-page {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.165);
+  color: white;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  opacity: 1;
+}
+.haut-page i {
+  transform: rotate(270deg);
+}
+.haut-page a {
+  color: white;
+}
+
+.invisible {
+  background-color: red;
+  display: none;
+}
+
+#haut-page .visible {
+  bottom: 50px;
+  opacity: 1;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#bloc-page {
+  display: flex;
+  flex-direction: column;
+}
+
+#bouton {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.page-footer {
+  background-color: #2BBBAD;
+}/*# sourceMappingURL=style.css.map */
